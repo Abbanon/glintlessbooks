@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "glintlessbooks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Glintless Books (Fabric)",
+  "description": "This mod removes the enchantment glint from Enchanted Books!",
   "authors": [
-    "Me!"
+    "Abbanon",
+    "Flytre7"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/members/abbanon/projects",
+    "sources": "https://github.com/Abbanon/glintlessbooks2"
   },
 
   "license": "CC0-1.0",
@@ -19,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "abbanon.books.GlintlessBooks"
     ]
   },
   "mixins": [
